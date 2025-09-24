@@ -15,8 +15,11 @@ COMMENT = 'Stage for Cortex AI Slide Builder application files';
 
 -- 3. Upload application files to the stage
 -- Note: These PUT commands should be run from your local environment
+-- Essential files:
 -- PUT file://real_cortex_app.py @SLIDE_BUILDER_STAGE/;
 -- PUT file://cortex_integration.py @SLIDE_BUILDER_STAGE/;
+-- 
+-- Optional files (only upload if needed):
 -- PUT file://requirements.txt @SLIDE_BUILDER_STAGE/;
 -- PUT file://environment.yml @SLIDE_BUILDER_STAGE/;
 -- PUT file://README.md @SLIDE_BUILDER_STAGE/;
